@@ -6,8 +6,8 @@ import PackageDescription
 /// Built from https://github.com/yi-jiang-applovin/Remo
 let remoXCFramework = Target.binaryTarget(
     name: "CRemo",
-    url: "https://github.com/yi-jiang-applovin/Remo/releases/download/v0.1.0/RemoSDK.xcframework.zip",
-    checksum: "bc33ff7f98aeb928dfd9afa7fbf095155b9fe9f738281ec7f4068854569a83ef"
+    url: "https://github.com/yi-jiang-applovin/Remo/releases/download/v0.2.0/RemoSDK.xcframework.zip",
+    checksum: "dbbd4d9faa5679315fd4520da5f60ed394822fcdfa5256c13de216472cdb9770"
 )
 
 let package = Package(
