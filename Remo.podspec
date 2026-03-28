@@ -1,18 +1,18 @@
 Pod::Spec.new do |s|
   s.name         = 'Remo'
-  s.version      = '0.4.0'
+  s.version      = '0.4.1'
   s.summary      = 'Remote control bridge for iOS apps — infrastructure for agentic iOS development.'
   s.description  = <<-DESC
     Remo gives AI agents eyes and hands on iOS. Register capabilities in your app,
     invoke them from macOS via the remo CLI or any AI agent.
     Debug-only — compiles to no-ops in Release builds.
   DESC
-  s.homepage     = 'https://github.com/yi-jiang-applovin/Remo'
+  s.homepage     = 'https://github.com/yjmeqt/Remo'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { 'Yi Jiang' => 'yi.jiang@applovin.com' }
+  s.author       = { 'Yi Jiang' => 'yjmeqt@gmail.com' }
   s.platform     = :ios, '13.0'
   s.source       = {
-    :http => "https://github.com/yi-jiang-applovin/Remo/releases/download/v#{s.version}/RemoSDK.xcframework.zip"
+    :http => "https://github.com/yjmeqt/Remo/releases/download/v#{s.version}/RemoSDK.xcframework.zip"
   }
   s.preserve_paths = 'RemoSDK.xcframework'
 
